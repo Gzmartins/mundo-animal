@@ -5,13 +5,13 @@ CREATE TABLE categoria (
     nome TEXT NOT NULL
 ); 
 
-INSERT INTO categoria (nome) 
-VALUES ('Mamíferos'),
-       ('Répteis'),
-       ('Aves'),
-       ('Anfíbios'),
-       ('Peixes'),
-       ('Insetos');
+INSERT INTO categoria (id_categoria, nome) 
+VALUES (1, "Mamíferos"),
+       (2, "Aves"),
+       (3, "Répteis"),
+       (4, "Anfíbios"),
+       (5, "Invertebrados"),
+       (6, "Peixes");
 
 
 CREATE TABLE especies (
