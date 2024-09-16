@@ -1,0 +1,125 @@
+header {
+  background-color: var(--normal-green);
+  color: var(--white);
+  padding: 20px;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
+}
+  
+.header-input {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  padding: 0.25rem;
+  width: 20%;
+  font-size: 14px;
+  align-items: center;
+}
+    
+.header-input .radio {
+  flex: 1 1 auto;
+  text-align: center;
+}
+    
+.header-input .radio input {
+  display: none;
+}
+    
+.header-input .radio .name {
+  font-size: 22px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  border: none;
+  padding: .5rem 0;
+  color: var(--cinza-azulado);
+  transition: all .15s ease-in-out;
+}
+
+.header-input .radio .name a {
+  text-decoration: none;
+  color: var(--cinza-azulado);
+}
+    
+.header-input .radio input:hover + .name {
+  background-color: var(--verde-claro);
+  font-weight: 600;
+}
+  
+.container img {
+  width: 10%;
+}
+  
+h1 {
+  font-family: var(--Fredoka);
+  color: var(--cinza-azulado);
+  font-size: 32px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+  
+/* Estilo geral da barra de pesquisa */
+  
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+    
+.search__input {
+  font-family: inherit;
+  font-size: inherit;
+  background-color: var(--verde-claro);
+  border: none;
+  color: var(--cinza-azulado);
+  padding: 0.7rem 1rem;
+  border-radius: 30px;
+  width: 12em;
+  transition: all ease-in-out .5s;
+  margin-right: -2rem;
+}
+    
+.search__input:hover, .search__input:focus {
+  box-shadow: 0 0 1em #00000013;
+}
+    
+.search__input:focus {
+  outline: none;
+  background-color: var(--verde-claro);
+}
+    
+.search__input::-webkit-input-placeholder {
+  font-weight: 100;
+  color: var(--cinza-azulado);
+}
+    
+.search__input:focus + .search__button {
+  background-color: var(--verde-claro);
+}
+    
+.search__button {
+  border: none;
+  background-color: var(--verde-claro);
+  margin-top: .1em;
+}
+    
+.search__button:hover {
+  cursor: pointer;
+}
+    
+.search__icon {
+  height: 1.3em;
+  width: 1.3em;
+  fill: var(--cinza-azulado);
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Animal</title>
+    <link rel="shortcut icon" href="./image/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/introducao.css">
+    <link rel="stylesheet" href="./styles/tipos.css">
+    <link rel="stylesheet" href="./styles/filmes.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="./image/Outros/logo.jpg" alt="Logo">
+            <h1>Mundo Animal</h1>
+            <div class="header-input">
+                <label class="radio" id="radio-ongs">
+                    <input type="radio" name="radio">
+                    <span class="name">
+                        <a href="https://celcash.celcoin.com.br/landingpage1427809/ajudar">ONGS</a>
+                    </span>
+                </label>
+                <label class="radio" id="radio-animais">
+                    <input type="radio" name="radio">
+                    <span class="name">
+                        <a href="./animais.html">Animais</a>
+                    </span>
+                </label>
+            </div>
+            <div class="search">
+                <input type="text" class="search__input" placeholder="Pesquisa">
+                <button class="search__button">
+                    <svg class="search__icon" aria-hidden="true" viewBox="0 0 24 24">
+                        <g>
+                            <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                        </g>
+                    </svg>
+                </button>
+            </div>
+            <div class="header-input">
+                <label class="radio" id="radio-dinossauros">
+                    <input type="radio" name="radio" checked="">
+                    <span class="name">
+                        <a href="./dinos.php">Dinossauros</a>
+                    </span>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="introducao">
+            <div class="introducao__container">
+                <h2>APRENDA, EXPLORE E DOE</h2>
+                <p>A magnífica diversidade do mundo animal</p>
+                <a href="https://celcash.celcoin.com.br/landingpage1427809/ajudar" class="btn">ONGS PARA DOAR</a>
+                <video autoplay muted loop>
+                    <source src="./image/Outros/onca.mp4" type="video/mp4">
+                    Seu navegador não suporta a tag de vídeo.
+                </video>
+            </div>
+        </section>
+
+        <section id="tipos">
+            <h2 class="titulo-paginas">TIPOS DE ANIMAIS</h2> 
+            <div class="container-animais">
+                <div class="cartao">
+                    <img decoding="async" src="./image/Mamíferos/guepardo.png" alt="Imagem de exemplo">
+                    <hr>
+                    <h2>Mamíferos</h2>
+                    <a href="especies.php?id=1">Saiba mais</a>
+                </div>
+                <div class="cartao">
+                    <img decoding="async" src="./image/Aves/arara.png" alt="Imagem de exemplo">
+                    <hr>
+                    <h2>Aves</h2>
+                    <a href="especies.php?id=2">Saiba mais</a>
+                </div>
+                <div class="cartao">
+                    <img decoding="async" src="./image/Répteis/crocodilo.jpg" alt="Imagem de exemplo">
+                    <hr>
+                    <h2>Répteis</h2>
+                    <a href="especies.php?id=3">Saiba mais</a>
+                </div>
+                <div class="cartao">
+                    <img decoding="async" src="./image/Anfíbios/sapo.jpg" alt="Imagem de exemplo">
+                    <hr>
+                    <h2>Anfíbios</h2>
+                    <a href="especies.php?id=4">Saiba mais</a>
+                </div>
+                <div class="cartao">
+                    <img decoding="async" src="./image/Invertebrados/borboleta.jpg" alt="Imagem de exemplo">
+                    <hr>
+                    <h2>Invertebrados</h2>
+                    <a href="especies.php?id=5">Saiba mais</a>
+                </div>
+                <div class="cartao">
+                    <img decoding="async" src="./image/Peixes/golfinho.jpg" alt="Imagem de exemplo">
+                    <hr>
+                    <h2>Peixes</h2>
+                    <a href="especies.php?id=6">Saiba mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="filmes">
+            <h2 class="titulo-paginas">Filmes e Documentários</h2>
+            <div class="contorno">
+                <i id="esquerda" class="fa-solid fa-angle-left">&lt;</i>
+                <ul class="carrossel">
+                    <li class="cartao">
+                        <div class="img"><img src="./image/Filmes e Series/animaisdeperto.png" alt="img" draggable="false"></div>
+                    </li>
+                    <li class="cartao">
+                        <div class="img"><img src="./image/Filmes e Series/Yukon.png" alt="img" draggable="false"></div>
+                    </li>
+                    <li class="cartao">
+                        <div class="img"><img src="./image/Filmes e Series/omundodosanimais.png" alt="img" draggable="false"></div>
+                    </li>
+                    <li class="cartao">
+                        <div class="img"><img src="./image/Filmes e Series/brasilselvagem.png" alt="img" draggable="false"></div>
+                    </li>
+                    <li class="cartao">
+                        <div class="img"><img src="./image/Filmes e Series/Mandibulas.png" alt="img" draggable="false"></div>
+                    </li>
+                    <li class="cartao">
+                        <div class="img"><img src="./image/Filmes e Series/maravilhasdaafrica.png" alt="img" draggable="false"></div>
+                    </li>
+                </ul>
+                <i id="direita" class="fa-solid fa-angle-right">&gt;</i>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Guilherme Martins.<br> Projeto fictício sem fins comerciais, porém doe é importante</p>
+        <ul>
+            <li>Minhas Redes</li>
+            <li class="lista__rodape__item">
+                <img class="lista__rodape__imagem" src="./image/Outros/github.png" alt="Logo github">
+                <a class="lista__rodape__link" href="https://github.com/Gzmartins">Gzmartins</a>
+            </li>
+            <li class="lista__rodape__item">
+                <img class="lista__rodape__imagem" src="./image/Outros/linkedin.png" alt="Logo linkedin">
+                <a class="lista__rodape__link" href="https://www.linkedin.com/in/guilherme-martins-8a3b7a2b5/">Guilherme Martins</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="./js/carrossel.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+#tipos {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+.container-animais {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+  
+.cartao {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  padding-top: 30px;
+  margin: 40px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+  
+#tipos .cartao:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+  
+.cartao img {
+  width: 120%; /* Ajuste conforme necessário */
+  height: 250px; /* Altura fixa para todas as imagens */
+  overflow: hidden; /* Para esconder qualquer parte da imagem que ultrapasse o contorno */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.cartao hr {
+  border: 1px solid #313131;
+  width: 120%;
+  margin: 2%
+}
+  
+.titulo-paginas {
+  font-family: var(--Poppins);
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+}
+  
+.cartao a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--cinza-azulado);
+  padding: 10px 30px;
+  border: 1px solid;
+  border-radius: 1000px;
+  display: inline-block;
+  transition: all .2s;
+  position: relative;
+  margin: 10px;
+}
+
+.carregar-mais {
+  color: white;
+  background-color: #222;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  line-height: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  border: none;
+}
+
+.carregar-mais:hover {
+  background-color: #333;
+}
+
+.carregar-mais svg {
+  display: inline;
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-right: 0.75rem;
+  color: white;
+}
+
