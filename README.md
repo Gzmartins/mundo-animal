@@ -21,7 +21,7 @@ Cada espécie tem uma página própria com descrição e detalhes únicos.
 2. Configure um servidor local (XAMPP, WAMP, etc).
 3. Copie os arquivos para a pasta do servidor.
 4. Importe o banco de dados SQLite.
-5. Acesse o site pelo navegador no servidor local.
+5. So colocar no seu navegador http://localhost/Nome-da-Pasta/animais.html.
 
 ## Projeto Feito Por 🎨
 Este projeto foi desenvolvido por **Guilherme Martins**.  
